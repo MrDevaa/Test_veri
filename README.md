@@ -25,6 +25,15 @@ Le site est en ligne à l'adresse suivante : https://test-verisure.netlify.app/
 | Le champ "Email parrain" est obligatoire et son format doit être conforme à une adresse email| ✅
 | Les messages d'erreurs sont à insérer dans les champs correspondants|✅
 
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| background bloc formulaire gris |#f0f2f4c7 |
+| couleur rouge | #ff0033 |
+
+
+
 
 ## 🛠 Skills
 Javascript, HTML, CSS.
