@@ -1,6 +1,6 @@
 
 
-![Logo](https://cdn.phenompeople.com/CareerConnectResources/VERIGLOBAL/images/opengraph-facebook-1649182911823.png)
+![Logo](https://upload.wikimedia.org/wikipedia/commons/4/44/Verisure_Logo_-_2021-07-16.png)
 
 
 # Project Title
