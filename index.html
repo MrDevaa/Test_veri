@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Verisure.fr</title>
+  </head>
+  <body>
+    <div class="formulaire">
+      <form action="" method="get" class="Forms_parainage">
+        <h3 class="title_forms">Formulaire de parrainage</h3>
+        <div class="ligne">
+          <input
+            type="text"
+            id="parrain_name"
+            name="name"
+            placeholder="NOM PARRAIN*"
+          />
+          <input type="email" id="parrain_email" placeholder="EMAIL PARRAIN" />
+        </div>
+        <div class="ligne">
+          <input
+            type="number"
+            id="number_filleul"
+            placeholder="TELEPHONE FILLEUL*"
+          />
+          <input
+            type="text"
+            id="name_filleul"
+            name="name"
+            placeholder="NOM FILLEUL*"
+          />
+        </div>
+        <div class="errors"></div>
+        <div class="button">
+          <input type="submit" class="btn" value="ENVOYER" />
+        </div>
+        <p class="Chmps">*Champs Obligatoires</p>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulaire {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 600px;
+}
+
+form.Forms_parainage {
+  background-color: #f0f2f4c7;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.title_forms{
+  text-align: center;
+  margin: 30px 10px;
+}
+
+.ligne{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.ligne input {
+  width: 48%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ff0033;
+  padding-bottom: 10px;
+}
+
+.ligne input::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.ligne input:focus{
+  outline: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.button input {
+  background-color: #ff0033;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button input:hover{
+  background-color:#d90630
+}
+
+.Chmps{
+  color: gray;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.error{
+  color: red;
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+  form{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .formulaire {
+    padding:0px 20px;
+  }
+
+  form{
+    width: 100%;
+  }
+
+  form.Forms_parainage {
+    padding: 20px 0px;
+  }
+
+  .ligne{
+    flex-direction:column;
+    margin: 0px;
+  }
+
+  .ligne input {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .button input {
+    width: 97%;
+  }
+}
