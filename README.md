@@ -1,6 +1,6 @@
 # Project Title
 
-La page Web Verisure aux maquettes Mobile et Desktop.
+La page Web Formulaire de Parrainage de Verisure aux maquettes Mobile et Desktop.
 
 Je remercie @Etienne Juffard :)
 
