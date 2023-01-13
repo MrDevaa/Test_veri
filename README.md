@@ -27,7 +27,7 @@ Le site est en ligne à l'adresse suivante : https://test-verisure.netlify.app/
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Javascript, HTML, CSS.
 
 
 
